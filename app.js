@@ -12,7 +12,16 @@
 // console.log(dani);
 
 //====================================================
-const addition = require("./utils");
+// const addition = require("./utils");
 
-const sum = addition(3, 6);
-console.log(sum);
+// const sum = addition(3, 6);
+// console.log(sum);
+
+//====================================================
+// const getNotes = require("./notes");
+
+// const notes = getNotes()
+
+// console.log(notes);
+
+//====================================================
