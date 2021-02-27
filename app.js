@@ -5,8 +5,8 @@
 // fs.appendFileSync("notes.txt", "\n This is message two.");
 
 //====================================================
-require("./utils"); 
+const dani = require("./utils"); 
 
-const dani = "dani"
+// const dani = "dani"
 
 console.log(dani);
