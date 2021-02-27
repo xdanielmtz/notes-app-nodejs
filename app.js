@@ -5,8 +5,14 @@
 // fs.appendFileSync("notes.txt", "\n This is message two.");
 
 //====================================================
-const dani = require("./utils"); 
+// const dani = require("./utils"); 
 
-// const dani = "dani"
+// // const dani = "dani" 
 
-console.log(dani);
+// console.log(dani);
+
+//====================================================
+const addition = require("./utils");
+
+const sum = addition(3, 6);
+console.log(sum);

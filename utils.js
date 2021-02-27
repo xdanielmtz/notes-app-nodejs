@@ -2,4 +2,8 @@ console.log("utils");
 
 const dani = ("daniel")
 
-module.exports = dani;
+const addition = function(a, b){
+    return a + b;
+}
+
+module.exports = addition;
