@@ -25,3 +25,10 @@
 // console.log(notes);
 
 //====================================================
+const validator = require("validator");
+console.log(validator.isEmail("daniel@gmail.com"))
+console.log(validator.isEmail("@gmail.com"))
+
+
+
+//====================================================
