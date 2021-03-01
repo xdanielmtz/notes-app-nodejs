@@ -25,10 +25,16 @@
 // console.log(notes);
 
 //====================================================
-const validator = require("validator");
-console.log(validator.isEmail("daniel@gmail.com"))
-console.log(validator.isEmail("@gmail.com"))
+// const validator = require("validator");
+// console.log(validator.isEmail("daniel@gmail.com"))
+// console.log(validator.isEmail("@gmail.com"))
 
-
+// console.log(validator.isURL("gmailcom"));
+// console.log(validator.isURL("youtube.com"));
+//====================================================
+const chalk = require("chalk");
+const log = console.log;
+console.log()
+log(chalk.green("Success!"))
 
 //====================================================
