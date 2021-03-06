@@ -32,12 +32,28 @@
 // console.log(validator.isURL("gmailcom"));
 // console.log(validator.isURL("youtube.com"));
 //====================================================
-const chalk = require("chalk");
-const log = console.log;
-console.log()
-log(chalk.green.bold("Success!"))
-log(chalk.green("Success!"))
-log(chalk.red.inverse("Success!"))
+// const chalk = require("chalk");
+// const log = console.log;
+// console.log()
+// log(chalk.green.bold("Success!"))
+// log(chalk.green("Success!"))
+// log(chalk.red.inverse("Success!"))
 
 
 //====================================================
+// console.log(process.argv[2]);
+
+//====================================================
+const chalk = require("chalk");
+const getNotes = require("./notes");
+
+const command = process.argv[2];
+
+if(command === "add"){
+    console.log("added a note!")
+}
+
+
+
+//====================================================
+
