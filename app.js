@@ -81,6 +81,23 @@ yargs.command({
     }
 })
 
+yargs.command({
+    command: "list",
+    describe: "listing notes",
+    handler: function () {
+        console.log("notes listed");
+    }
+})
+
+yargs.command({
+    command: "read",
+    describe: "reading a note",
+    handler: function () {
+        console.log("reading a note");
+    }
+})
+
+
 
 
 // console.log(process.argv);
