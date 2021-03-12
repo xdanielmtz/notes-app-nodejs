@@ -70,11 +70,18 @@ yargs.command({
     builder: {
         title: {
             describe: "Note title",
-            demandOption: true
+            demandOption: true,
+            type:"string"
+        },
+        body: {
+            describe: "Note Body",
+            demandOption: true,
+            type: "string"
         }
     },
     handler: function (argv) {
-        console.log("adding a new note", argv);
+        console.log("Title: " + argv.title);
+        console.log("Body: " + argv.body);
     }
 })
 
@@ -107,5 +114,4 @@ yargs.command({
 
 
 // console.log(process.argv);
-console.log(yargs.argv);
-
+yargs.parse();
